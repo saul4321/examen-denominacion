@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Cantidad de billetes</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="estilos.css">
+        <script src="logica.js">
+        </script>
+    </head>
+    <body>
+     <center> <h1>DENOMINACIÓN  DE BILLETES</h1> </center>  
+        <form name="formulario1">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="cantidad_entregada">Ingresa el valor de cantidad entregada:</label>
+                        </td>
+                        <td>
+                            <input name="cantidad_entregada" required="required" step="1" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="compra">Ingresa el valor de compra:</label>
+                        </td>
+                        <td>
+                            <input name="compra" required="required" step="1" type="number" />
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2" rowspan="1">
+                            <input value="Procesar" type="button" onclick="algoritmo();" />
+                            <input type="reset" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="billetes_de_1000">Valor de billetes de 1000:</label>
+                        </td>
+                        <td>
+                            <input name="billetes_de_1000" step="1" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="billetes_de_10000">Valor de billetes de 10000:</label>
+                        </td>
+                        <td>
+                            <input name="billetes_de_10000" step="1" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="billetes_de_2000">Valor de billetes de 2000:</label>
+                        </td>
+                        <td>
+                            <input name="billetes_de_2000" step="1" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="billetes_de_20000">Valor de billetes de 20000:</label>
+                        </td>
+                        <td>
+                            <input name="billetes_de_20000" step="1" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="billetes_de_5000">Valor de billetes de 5000:</label>
+                        </td>
+                        <td>
+                            <input name="billetes_de_5000" step="1" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cambio">Valor de cambio:</label>
+                        </td>
+                        <td>
+                            <input name="cambio" step="1" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="monedas_de_1">Valor de monedas de 1:</label>
+                        </td>
+                        <td>
+                            <input name="monedas_de_1" step="1" type="number" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
